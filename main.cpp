@@ -17,14 +17,14 @@ int main()
     // For negative n: divide result by 2, |n| times
 
     if (n >= 0){
-        for (int i = 0; i <= n; i++){
+        for (int i = 0; i < n; i++){
             result *= 2;
         }
         cout << result << endl;
     }
     else{
         n = n * -1;
-        for(int i = 0; i <= n; i++){
+        for(int i = 0; i < n; i++){
             result *= 2;
         }
         cout << 1.0 / result << endl;
