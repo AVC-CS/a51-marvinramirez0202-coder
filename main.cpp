@@ -18,8 +18,9 @@ int main()
 
     if (n >= 0){
         for (int i = 0; i < n; i++){
-            result *= 2;
+            result *= 2.0;
         }
+        cout << setprecision(2) << fixed;
         cout << result << endl;
     }
     else{
